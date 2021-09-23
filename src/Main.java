@@ -15,8 +15,9 @@ public class Main {
         Employee[] employeesList = {NV1,NV2, NV3, NV4, NV5, NV6, NV7};
 
         getInfo(employeesList);
-        System.out.println(getTotalMoneyPartTime(employeesList));
-        System.out.println("Những người lương thấp");
+        System.out.println("Tổng lương parttime");
+        System.out.printf("%.1f",getTotalMoneyPartTime(employeesList));
+        System.out.println("\nNhững người lương thấp");
         getListEmployee(employeesList);
         System.out.println("sắp xếp tên theo lương tăng dần");
         sortEmployee(employeesList);
