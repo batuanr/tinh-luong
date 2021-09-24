@@ -1,4 +1,4 @@
-public class Employee {
+public abstract class Employee {
     private int code;
     private String name;
     private int age;
@@ -55,9 +55,7 @@ public class Employee {
     public void setEmail(String email) {
         this.email = email;
     }
-    public double payroll(){
-        return 0;
-    }
+    public abstract double payroll();
 
     @Override
     public String toString() {
